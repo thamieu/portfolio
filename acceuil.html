@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <div class="thumbnail">
+      <a href="acceuil.html">
+        <img src="folder.png" alt="Folder Icon" />
+      </a>
+    </div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .thumbnail {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+      }
+
+      .thumbnail img {
+        width: 50px; /* Ajustez la largeur selon vos besoins */
+        height: auto;
+      }
+
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 1em;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 1em;
+        text-align: center;
+        background-color: #222;
+      }
+
+      table {
+        width: 60%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 10px;
+        margin-bottom: 1em;
+      }
+
+      td {
+        padding: 0.5em;
+        text-align: center;
+        background-color: #555;
+        border-radius: 10px;
+        position: relative;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      td:hover {
+        background-color: #35313138;
+        color: #fff;
+      }
+
+      table td img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+      }
+
+      .tooltip {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.5em;
+        background-color: #000000a8;
+        color: #fff;
+        border-radius: 5px;
+        display: none;
+      }
+
+      td:hover .tooltip {
+        display: block;
+      }
+
+      .projects {
+        margin-top: 2em;
+      }
+
+      .projects h2 {
+        color: #fff;
+      }
+
+      .project-table {
+        width: 60%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 10px;
+      }
+
+      .project-td {
+        padding: 1em;
+        text-align: center;
+        background-color: #555;
+        border-radius: 10px;
+        transition: background-color 0.3s, color 0.3s;
+        cursor: pointer;
+      }
+
+      .project-td:hover {
+        background-color: #35313138;
+        color: #fff;
+      }
+
+      .project-table .project-td img {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        margin-top: auto;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        margin-top: 10px;
+      }
+
+      footer img {
+        width: 20px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PortFolio</h1>
+    </header>
+
+    <nav>
+      <a href="acceuil.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <h2>Mes Compétences</h2>
+      <div>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="java.webp" alt="Java Icon" />
+                <div class="tooltip">
+                  <p>
+                    Compétence utilisé lors de certaines matières comme le
+                    developpement, le réseau et la base de données
+                  </p>
+                </div>
+                <h3>Java</h3>
+              </td>
+              <td>
+                <img
+                  src="python-icon-256x254-m7n72ce3.webp"
+                  alt="Python Icon"
+                />
+                <div class="tooltip">
+                  <p>
+                    Compétence utilisé surtout pour tout ce qui est matière
+                    mathématique
+                  </p>
+                </div>
+                <h3>Python</h3>
+              </td>
+              <td>
+                <img src="php.webp" alt="PHP Icon" />
+                <div class="tooltip">
+                  <p>
+                    Compétence utilisé lors de création de site web surtout avec
+                    le FrameWork Laravel
+                  </p>
+                </div>
+                <h3>PHP</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="bash.webp" alt="Bash Icon" />
+                <div class="tooltip">
+                  <p>
+                    Compétence utilisé lors de la première année surtout pour le
+                    réseau
+                  </p>
+                </div>
+                <h3>Bash</h3>
+              </td>
+              <td>
+                <img src="sql.webp" alt="SQL Icon" />
+                <div class="tooltip">
+                  <p>
+                    Compétences utilisé lors de la matière base de données et
+                    pour le web
+                  </p>
+                </div>
+                <h3>SQL</h3>
+              </td>
+              <td>
+                <img src="html.webp" alt="HTML Icon" />
+                <div class="tooltip">
+                  <p>
+                    Compétence utilisé lors de la première année pour créer des
+                    sites web
+                  </p>
+                </div>
+                <h3>HTML</h3>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="projects">
+        <h2>Mes Projets</h2>
+        <table class="project-table">
+          <tbody>
+            <tr>
+              <td
+                class="project-td"
+                onclick="window.location.href='projet1.html';"
+              >
+                <img src="flatcraft.webp" alt="image de flatcraft" />
+                <h3>Flatcraft</h3>
+              </td>
+              <td
+                class="project-td"
+                onclick="window.location.href='projet2.html';"
+              >
+                <img src="bookshelf.png" alt="image de bookshelf" />
+                <h3>bookshelf</h3>
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="project-td"
+                onclick="window.location.href='projet3.html';"
+              >
+                <img src="torch-3680063_640.webp" alt="image du projet JO" />
+                <h3>JO 2024</h3>
+              </td>
+              <td
+                class="project-td"
+                onclick="window.location.href='projet4.html';"
+              >
+                <img src="under-construction-2891888_640.webp" alt="Projet 4" />
+                <h3>En cours</h3>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank">
+        <img src="linkedin.png" alt="Logo LinkedIn" />
+      </a>
+      <p>&copy; 2024 PortFolio</p>
+    </footer>
+  </body>
+</html>

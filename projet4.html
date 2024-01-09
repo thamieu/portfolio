@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <div class="thumbnail">
+      <a href="acceuil.html">
+        <img src="folder.png" alt="Folder Icon" />
+      </a>
+    </div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .thumbnail {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+      }
+
+      .thumbnail img {
+        width: 50px; /* Ajustez la largeur selon vos besoins */
+        height: auto;
+      }
+
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 1em;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 1em;
+        text-align: center;
+        background-color: #222;
+      }
+
+      main h1 {
+        margin: 0; /* Supprime la marge par défaut du h1 */
+      }
+
+      main .highlight-text {
+        width: 60%;
+        margin: 20px auto; /* Centrer horizontalement */
+        border: 2px solid #fff;
+        padding: 10px;
+      }
+
+      main img {
+        max-width: 100%; /* La largeur maximale sera de 100% du conteneur parent */
+        height: auto; /* La hauteur sera ajustée automatiquement pour maintenir les proportions */
+        margin : 10px;
+    }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        margin-top: auto;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        margin-top: 10px;
+      }
+
+      footer img {
+        width: 20px;
+        height: auto;
+      }
+      .view-project-btn {
+        background-color: #726c6c;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      .view-project-btn:hover {
+        background-color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PortFolio</h1>
+    </header>
+
+    <nav>
+      <a href="acceuil.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <h1>JO Paris 2024</h1>
+      <div class="highlight-text">
+        <p>
+            Ce projet est en cours ! 
+            Un projet tenu secret.
+          <br />
+          <br />
+          <br />
+          <h3>Secret defense</h3>
+          <br />
+          <br />
+          <img src="secret.webp" alt="image de secret defense" />
+        </p>
+      </div>
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        class="view-project-btn"
+        >Voir le projet</a
+      >
+    </main>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank">
+        <img src="linkedin.png" alt="Logo LinkedIn" />
+      </a>
+      <p>&copy; 2024 PortFolio</p>
+    </footer>
+  </body>
+</html>

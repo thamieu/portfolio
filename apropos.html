@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <div class="thumbnail">
+      <a href="acceuil.html">
+        <img src="folder.png" alt="Folder Icon" />
+      </a>
+    </div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .thumbnail {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+      }
+
+      .thumbnail img {
+        width: 50px; /* Ajustez la largeur selon vos besoins */
+        height: auto;
+      }
+
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 1em;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 1em;
+        text-align: center; /* Ajout de cette ligne pour centrer le contenu */
+        background-color: #222;
+      }
+
+      main img {
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 20px auto; /* Centrer l'image horizontalement */
+      }
+
+      main h1 {
+        margin: 0;
+      }
+
+      main .highlight-text {
+        width: 40%;
+        margin: 20px auto;
+        border: 2px solid #fff;
+        padding: 10px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        margin-top: auto;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        margin-top: 10px;
+      }
+
+      footer img {
+        width: 20px;
+        height: auto;
+      }
+      .view-project-btn {
+        background-color: #726c6c;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      .view-project-btn:hover {
+        background-color: #000000;
+      }
+      .download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .download-link:hover {
+    background-color: #2980b9;
+  }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PortFolio</h1>
+    </header>
+
+    <nav>
+      <a href="acceuil.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <h1>HOENS Mathieu</h1>
+      <img src="moi.JPG" alt="image de mathieu-hoens" />
+      <div class="highlight-text">
+        <p>
+          <H2>Présentation</H2>
+          Je m'appelle Mathieu HOENS et j'ai 19 ans. Je suis né à
+          Chalons-En-Champage dans la Marne (51).<br /><br />
+          Je suis actuellement étudiant en BUT informatique au sein de l'IUT de
+          Lens. Durant ma Deuxième année je vais devenir alterant chez ITEKA une
+          entreprise informatique qui est principalement spécialisé dans le
+          réseau.<br /><br />
+          Après mon BUT je compte me spécialisé dans la sécurité informatique (
+          cyber-sécurité ) car en ce monde nous avons de plus en plus besoin de
+          protéger nos données personnels. <br><br>
+          <hr>
+          <H2>Loisirs</H2>
+          Mes loisirs sont : 
+          <br>
+          <br>
+          La boxe  
+          <img src="boxe.jpg" alt="image de boxe">
+          <br />
+          <br />
+          La cuisine
+          <img src="cuisine.webp" alt="cuisine">
+          <br>
+          <br>
+          Les jeux vidéos
+          <img src="jeuxvideo.webp" alt="jeux video">
+          <hr>
+          <br>
+          <br>
+          <a href="CV Mathieu Hoens.pdf" download="CV_en_francais.pdf">Télécharger mon CV en francais</a><br>
+          <a href="CV Mathieu Hoens anglais.pdf" download="Mon_CV_en _anglais.pdf">Télécharger mon CV en anglais</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank">
+        <img src="linkedin.png" alt="Logo LinkedIn" />
+      </a>
+      <p>&copy; 2024 PortFolio</p>
+    </footer>
+  </body>
+</html>

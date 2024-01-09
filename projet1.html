@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <div class="thumbnail">
+      <a href="acceuil.html">
+        <img src="folder.png" alt="Folder Icon" />
+      </a>
+    </div>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #111;
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      .thumbnail {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+      }
+
+      .thumbnail img {
+        width: 50px; /* Ajustez la largeur selon vos besoins */
+        height: auto;
+        margin: 10px;
+      }
+
+      nav {
+        background-color: #444;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 1em;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 1em;
+        text-align: center;
+        background-color: #222;
+      }
+
+      main h1 {
+        margin: 0; /* Supprime la marge par défaut du h1 */
+      }
+
+      main .highlight-text {
+        width: 60%;
+        margin: 20px auto; /* Centrer horizontalement */
+        border: 2px solid #fff;
+        padding: 10px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        margin-top: auto;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      footer a {
+        margin-top: 10px;
+      }
+
+      footer img {
+        width: 20px;
+        height: auto;
+      }
+      .view-project-btn {
+        background-color: #726c6c;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+
+      .view-project-btn:hover {
+        background-color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PortFolio</h1>
+    </header>
+
+    <nav>
+      <a href="acceuil.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <h1>Flatcraft</h1>
+      <div class="highlight-text">
+        <p>
+          Flatcraft est un jeu qui à pour but de recréer le jeu minecraft mais
+          en version 2D.<br />
+          Ce jeu est fait en groupe de 4 lors du carde de notre formation en BUT
+          informatique. Ce jeu permet de se balader librement ( openWorld )
+          <br />dans différent univers et avec des mostres différent selon ces
+          biomes mais aussi différentes resources récoltables et qu'il est
+          possible de transformer.
+          <br />
+          <br />
+          <br />
+          Il y a l'univers de base :
+          <br />
+          <br />
+          <img src="overworld.png" alt="image overworld" />
+          <br />
+          <br />
+          <br />
+          Il y a aussi l'univers du nether :
+          <br />
+          <br />
+          <img src="nether.png" alt="image nether" />
+          <br />
+          <br />
+          <br />
+          Et enfin le dernier, l'univers de l'end :
+          <br />
+          <br />
+          <img src="end.png" alt="image end" />
+          <br />
+        </p>
+      </div>
+      <a
+        href="https://gitlab.univ-artois.fr/laurine_wiplie/projet-2023-2024-groupe-c-1"
+        class="view-project-btn"
+        >Voir le projet</a
+      >
+    </main>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank">
+        <img src="linkedin.png" alt="Logo LinkedIn" />
+      </a>
+      <p>&copy; 2024 PortFolio</p>
+    </footer>
+  </body>
+</html>
