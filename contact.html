@@ -60,27 +60,30 @@
 
       main {
         padding: 1em;
-        text-align: center;
+        text-align: center; /* Ajout de cette ligne pour centrer le contenu */
         background-color: #222;
       }
 
+      main img {
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 20px auto; /* Centrer l'image horizontalement */
+      }
+
       main h1 {
-        margin: 0; /* Supprime la marge par défaut du h1 */
+        margin: 0;
       }
 
       main .highlight-text {
-        width: 60%;
-        margin: 20px auto; /* Centrer horizontalement */
+        width: 40%;
+        margin: 20px auto;
         border: 2px solid #fff;
         padding: 10px;
       }
-
-      main img {
-        max-width: 100%; /* La largeur maximale sera de 100% du conteneur parent */
-        height: auto; /* La hauteur sera ajustée automatiquement pour maintenir les proportions */
-        margin : 10px;
-    }
-
       footer {
         background-color: #333;
         color: #fff;
@@ -115,6 +118,20 @@
       .view-project-btn:hover {
         background-color: #000000;
       }
+      .download-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        cursor: pointer;
+      }
+
+      .download-link:hover {
+        background-color: #2980b9;
+      }
     </style>
   </head>
   <body>
@@ -129,25 +146,20 @@
     </nav>
 
     <main>
-      <h1>JO Paris 2024</h1>
-      <div class="highlight-text">
+      <h1>HOENS Mathieu</h1>
+      <img src="moi.JPG" alt="image de mathieu-hoens" />
+      <div>
+        <!-- Adresse e-mail -->
+        <p>Email: mathieu.hns@gmail.com</p>
+
+        <!-- Lien LinkedIn -->
         <p>
-            Ce projet est en cours ! 
-            Un projet tenu secret.
-          <br />
-          <br />
-          <br />
-          <h3>Secret defense</h3>
-          <br />
-          <br />
-          <img src="secret.webp" alt="image de secret defense" />
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank"
+            >Mathieu Hoens</a
+          >
         </p>
       </div>
-      <a
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        class="view-project-btn" target="_blank"
-        >Voir le projet</a
-      >
     </main>
 
     <footer>

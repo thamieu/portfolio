@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PortFolio</title>
-    <div class="thumbnail">
-      <a href="index.html">
-        <img src="folder.png" alt="Folder Icon" />
-      </a>
-    </div>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -144,6 +139,27 @@
         border-radius: 10px;
       }
 
+      .progress-bar-container {
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #444;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+
+      .progress-bar-fill {
+        height: 100%;
+        background-color: #3498db;
+        border-radius: 5px;
+      }
+
       footer {
         background-color: #333;
         color: #fff;
@@ -175,7 +191,7 @@
     <nav>
       <a href="index.html">Accueil</a>
       <a href="apropos.html">À propos</a>
-      <a href="#">Contact</a>
+      <a href="contact.html">Contact</a>
     </nav>
 
     <main>
@@ -188,11 +204,16 @@
                 <img src="java.webp" alt="Java Icon" />
                 <div class="tooltip">
                   <p>
-                    Compétence utilisé lors de certaines matières comme le
-                    developpement, le réseau et la base de données
+                    Compétence utilisée lors de certaines matières comme le
+                    développement, le réseau et la base de données
                   </p>
                 </div>
                 <h3>Java</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 70%"></div>
+                  </div>
+                </div>
               </td>
               <td>
                 <img
@@ -201,21 +222,31 @@
                 />
                 <div class="tooltip">
                   <p>
-                    Compétence utilisé surtout pour tout ce qui est matière
+                    Compétence utilisée surtout pour tout ce qui est matière
                     mathématique
                   </p>
                 </div>
                 <h3>Python</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 50%"></div>
+                  </div>
+                </div>
               </td>
               <td>
                 <img src="php.webp" alt="PHP Icon" />
                 <div class="tooltip">
                   <p>
-                    Compétence utilisé lors de création de site web surtout avec
-                    le FrameWork Laravel
+                    Compétence utilisée lors de la création de site web surtout
+                    avec le Framework Laravel
                   </p>
                 </div>
                 <h3>PHP</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 75%"></div>
+                  </div>
+                </div>
               </td>
             </tr>
             <tr>
@@ -223,31 +254,46 @@
                 <img src="bash.webp" alt="Bash Icon" />
                 <div class="tooltip">
                   <p>
-                    Compétence utilisé lors de la première année surtout pour le
-                    réseau
+                    Compétence utilisée lors de la première année surtout pour
+                    le réseau
                   </p>
                 </div>
                 <h3>Bash</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 60%"></div>
+                  </div>
+                </div>
               </td>
               <td>
                 <img src="sql.webp" alt="SQL Icon" />
                 <div class="tooltip">
                   <p>
-                    Compétences utilisé lors de la matière base de données et
+                    Compétence utilisée lors de la matière base de données et
                     pour le web
                   </p>
                 </div>
                 <h3>SQL</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 55%"></div>
+                  </div>
+                </div>
               </td>
               <td>
                 <img src="html.webp" alt="HTML Icon" />
                 <div class="tooltip">
                   <p>
-                    Compétence utilisé lors de la première année pour créer des
+                    Compétence utilisée lors de la première année pour créer des
                     sites web
                   </p>
                 </div>
                 <h3>HTML</h3>
+                <div class="progress-bar-container">
+                  <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 60%"></div>
+                  </div>
+                </div>
               </td>
             </tr>
           </tbody>
