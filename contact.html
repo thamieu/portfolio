@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PortFolio</title>
-    <div class="thumbnail">
-      <a href="index.html">
-        <img src="folder.png" alt="Folder Icon" />
-      </a>
-    </div>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -27,17 +22,6 @@
         color: #fff;
         text-align: center;
         padding: 1em;
-      }
-
-      .thumbnail {
-        position: absolute;
-        left: 10px;
-        top: 30px;
-      }
-
-      .thumbnail img {
-        width: 50px; /* Ajustez la largeur selon vos besoins */
-        height: auto;
       }
 
       nav {
@@ -60,7 +44,7 @@
 
       main {
         padding: 1em;
-        text-align: center; /* Ajout de cette ligne pour centrer le contenu */
+        text-align: center;
         background-color: #222;
       }
 
@@ -71,19 +55,30 @@
         border-radius: 100%;
         overflow: hidden;
         display: block;
-        margin: 20px auto; /* Centrer l'image horizontalement */
+        margin: 20px auto;
       }
 
       main h1 {
         margin: 0;
       }
 
-      main .highlight-text {
-        width: 40%;
-        margin: 20px auto;
-        border: 2px solid #fff;
-        padding: 10px;
+      main .contact-info {
+        margin-top: 20px;
       }
+
+      .contact-info p {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .contact-info img {
+        width: 30px;
+        height: auto;
+        margin: 5px; /* Ajustez selon vos préférences */
+      }
+
       footer {
         background-color: #333;
         color: #fff;
@@ -105,33 +100,6 @@
         width: 20px;
         height: auto;
       }
-      .view-project-btn {
-        background-color: #726c6c;
-        color: #ffffff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        display: inline-block;
-        margin-top: 20px;
-      }
-
-      .view-project-btn:hover {
-        background-color: #000000;
-      }
-      .download-link {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #3498db;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-        cursor: pointer;
-      }
-
-      .download-link:hover {
-        background-color: #2980b9;
-      }
     </style>
   </head>
   <body>
@@ -148,16 +116,22 @@
     <main>
       <h1>HOENS Mathieu</h1>
       <img src="moi.JPG" alt="image de mathieu-hoens" />
-      <div>
+
+      <div class="contact-info">
         <!-- Adresse e-mail -->
         <p>Email: mathieu.hns@gmail.com</p>
 
         <!-- Lien LinkedIn -->
         <p>
-          LinkedIn:
+          <img src="linkedin.png" alt="image linkedin" /> LinkedIn:
           <a href="https://www.linkedin.com/in/mathieu-hoens/" target="_blank"
             >Mathieu Hoens</a
-          >
+          ><br />
+        </p>
+        <p>
+          <!-- Lien GitHub -->
+          <img src="github9775.webp" alt="image gitHub" /> GitHub:
+          <a href="https://github.com/thamieu" target="_blank">GitHub</a>
         </p>
       </div>
     </main>
